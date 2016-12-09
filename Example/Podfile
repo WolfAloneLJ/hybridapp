@@ -1,5 +1,4 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'http://ph.benemind.com/diffusion/SPEC/emspecs.git'
 
 target 'MSAppModuleWebApp_Example' do
   pod 'MSAppModuleWebApp', :path => '../'

@@ -12,7 +12,7 @@
 #import "EMWebBackView.h"
 #import "MSAppSettingsWebApp.h"
 #import <JLRoutes/JLRoutes.h>
-#import <EMSocialKit/EMSocialSDK.h>
+//#import <EMSocialKit/EMSocialSDK.h>
 // Bridge
 #import <WebViewJavascriptBridge/WebViewJavascriptBridge.h>
 #import "UIWebView+TS_JavaScriptContext.h"

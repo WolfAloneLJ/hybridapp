@@ -1,11 +1,3 @@
-#
-# Be sure to run `pod lib lint MSAppModuleWebApp.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "MSAppModuleWebApp"
   s.version          = "0.2.3"
@@ -33,10 +25,10 @@ Pod::Spec.new do |s|
   s.subspec  'WebViewController' do |ss|
     ss.source_files = 'Pod/Classes/**/*'
     ss.resource     = 'Pod/Assets/**/*.js', 'Pod/Assets/**/*.png'
-    ss.dependency 'EMSocialKit'
+#ss.dependency 'EMSocialKit'
     ss.dependency 'SDWebImage'
     ss.dependency 'Masonry'
-    ss.dependency 'MSAppModuleWebApp/WebBridgeCore'
+#ss.dependency 'MSAppModuleWebApp/WebBridgeCore'
   end
 
   s.subspec 'WebBridgeCore' do |ss|
